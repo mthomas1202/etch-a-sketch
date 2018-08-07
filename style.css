@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  font-family: arial, sans-serif;
+  /*background-color: #303F9F;
+  background: radial-gradient(circle farthest-side, #00897B, #004D40);*/
+  /*color: white;*/
+}
+
+div#container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div#grid {
+  height: 450px;
+  width: 450px;
+}
+
+div#grid>div {
+  background-color: white;
+  border: 1px solid #eee;
+  display: inline-block;
+  border-collapse: collapse;
+}
+
+.active, div#buttons>input:hover{
+  box-shadow: 1px 1px 1px 1px inset;
+}
